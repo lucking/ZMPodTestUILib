@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMPodTestUILib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZMPodTestUILib.'
+  s.version          = '0.1.2'
+  s.summary          = '添加一些view的快捷创建'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

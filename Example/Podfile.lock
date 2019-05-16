@@ -1,0 +1,16 @@
+PODS:
+  - ZMPodTestUILib (0.1.0)
+
+DEPENDENCIES:
+  - ZMPodTestUILib (from `../`)
+
+EXTERNAL SOURCES:
+  ZMPodTestUILib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMPodTestUILib: de2ee3ce23761fc528fb28b07e8901e7751bbdea
+
+PODFILE CHECKSUM: 938f577fdd5a28acae8e63ef0d8bf59813084da9
+
+COCOAPODS: 1.6.1
