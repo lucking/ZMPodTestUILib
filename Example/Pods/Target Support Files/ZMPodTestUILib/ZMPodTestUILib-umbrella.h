@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ZMTool.h"
+#import "ZMUITools.h"
 
 FOUNDATION_EXPORT double ZMPodTestUILibVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZMPodTestUILibVersionString[];

@@ -1,5 +1,5 @@
 PODS:
-  - ZMPodTestUILib (0.1.0)
+  - ZMPodTestUILib (0.1.2)
 
 DEPENDENCIES:
   - ZMPodTestUILib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZMPodTestUILib: de2ee3ce23761fc528fb28b07e8901e7751bbdea
+  ZMPodTestUILib: 28606867de36ab7732194e829c8ab4816a919f68
 
 PODFILE CHECKSUM: 938f577fdd5a28acae8e63ef0d8bf59813084da9
 
