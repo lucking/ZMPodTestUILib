@@ -1,0 +1,6 @@
+framework module ZMPodTestUILib {
+  umbrella header "ZMPodTestUILib-umbrella.h"
+
+  export *
+  module * { export * }
+}
