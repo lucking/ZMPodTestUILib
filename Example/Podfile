@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZMPodTestUILib_Example' do
+  pod 'ZMPodTestUILib', :path => '../'
+
+  target 'ZMPodTestUILib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
