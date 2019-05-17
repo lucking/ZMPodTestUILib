@@ -86,6 +86,8 @@
 				68E4860C228E609300A6F86A /* ZMUITools.m */,
 				68E4863D228EB93A00A6F86A /* UIView+ZMTest.h */,
 				68E4863E228EB93A00A6F86A /* UIView+ZMTest.m */,
+				68E48642228EBF3C00A6F86A /* ZMTestBaseView.h */,
+				68E48643228EBF3C00A6F86A /* ZMTestBaseView.m */,
 				68E4862F228EB47400A6F86A /* ZMTestBaseViewController.h */,
 				68E48630228EB47400A6F86A /* ZMTestBaseViewController.m */,
 				68E4861E228E928F00A6F86A /* FoundationCategroy */,
@@ -99,8 +101,6 @@
 			children = (
 				68E4862B228EAB8100A6F86A /* UIColor+ZMTest.h */,
 				68E4862C228EAB8100A6F86A /* UIColor+ZMTest.m */,
-				68E48642228EBF3C00A6F86A /* ZMTestBaseView.h */,
-				68E48643228EBF3C00A6F86A /* ZMTestBaseView.m */,
 			);
 			path = UIKitCategroy;
 			sourceTree = "<group>";
