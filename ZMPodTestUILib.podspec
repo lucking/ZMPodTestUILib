@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMPodTestUILib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'asdfasdvqads ZMPodTestUILib.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZMPodTestUILib/Classes/**/*'
-  
+  # s.source_files = 'ZMPodTestUILib/Classes/**/*'
+  s.source_files = 'ZMTestKit'
+
   # s.resource_bundles = {
   #   'ZMPodTestUILib' => ['ZMPodTestUILib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.public_header_files = 'Pod/Classes/**/*.h'    # 只公开头文件
+  # s.frameworks = 'UIKit', 'MapKit'                # 填写依赖官方的组件
+  # s.dependency 'AFNetworking', '~> 2.3'           # 依赖库
 end
