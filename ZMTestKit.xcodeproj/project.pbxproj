@@ -10,6 +10,14 @@
 		68E485F9228E5A2300A6F86A /* ZMTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E485F7228E5A2300A6F86A /* ZMTestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68E48601228E5A4100A6F86A /* ZMStaticLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E485FF228E5A4100A6F86A /* ZMStaticLib.m */; };
 		68E48602228E5A4100A6F86A /* ZMStaticLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48600228E5A4100A6F86A /* ZMStaticLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E4860F228E609400A6F86A /* ZMTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4860B228E609300A6F86A /* ZMTool.h */; };
+		68E48610228E609400A6F86A /* ZMUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4860C228E609300A6F86A /* ZMUITools.m */; };
+		68E48611228E609400A6F86A /* ZMUITools.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4860D228E609400A6F86A /* ZMUITools.h */; };
+		68E48612228E609400A6F86A /* ZMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4860E228E609400A6F86A /* ZMTool.m */; };
+		68E48615228E625D00A6F86A /* UIColor+ZMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48613228E625D00A6F86A /* UIColor+ZMAdd.m */; };
+		68E48616228E625D00A6F86A /* UIColor+ZMAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48614228E625D00A6F86A /* UIColor+ZMAdd.h */; };
+		68E48619228E62FA00A6F86A /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48617228E62FA00A6F86A /* ZMBaseViewController.m */; };
+		68E4861A228E62FA00A6F86A /* ZMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48618228E62FA00A6F86A /* ZMBaseViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +26,14 @@
 		68E485F8228E5A2300A6F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E485FF228E5A4100A6F86A /* ZMStaticLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMStaticLib.m; sourceTree = "<group>"; };
 		68E48600228E5A4100A6F86A /* ZMStaticLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMStaticLib.h; sourceTree = "<group>"; };
+		68E4860B228E609300A6F86A /* ZMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMTool.h; sourceTree = "<group>"; };
+		68E4860C228E609300A6F86A /* ZMUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMUITools.m; sourceTree = "<group>"; };
+		68E4860D228E609400A6F86A /* ZMUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMUITools.h; sourceTree = "<group>"; };
+		68E4860E228E609400A6F86A /* ZMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMTool.m; sourceTree = "<group>"; };
+		68E48613228E625D00A6F86A /* UIColor+ZMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZMAdd.m"; sourceTree = "<group>"; };
+		68E48614228E625D00A6F86A /* UIColor+ZMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZMAdd.h"; sourceTree = "<group>"; };
+		68E48617228E62FA00A6F86A /* ZMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseViewController.m; sourceTree = "<group>"; };
+		68E48618228E62FA00A6F86A /* ZMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 				68E485F7228E5A2300A6F86A /* ZMTestKit.h */,
 				68E48600228E5A4100A6F86A /* ZMStaticLib.h */,
 				68E485FF228E5A4100A6F86A /* ZMStaticLib.m */,
+				68E4860B228E609300A6F86A /* ZMTool.h */,
+				68E4860E228E609400A6F86A /* ZMTool.m */,
+				68E4860D228E609400A6F86A /* ZMUITools.h */,
+				68E4860C228E609300A6F86A /* ZMUITools.m */,
+				68E48614228E625D00A6F86A /* UIColor+ZMAdd.h */,
+				68E48613228E625D00A6F86A /* UIColor+ZMAdd.m */,
+				68E48618228E62FA00A6F86A /* ZMBaseViewController.h */,
+				68E48617228E62FA00A6F86A /* ZMBaseViewController.m */,
 				68E485F8228E5A2300A6F86A /* Info.plist */,
 			);
 			path = ZMTestKit;
@@ -65,8 +89,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E48616228E625D00A6F86A /* UIColor+ZMAdd.h in Headers */,
 				68E485F9228E5A2300A6F86A /* ZMTestKit.h in Headers */,
+				68E4860F228E609400A6F86A /* ZMTool.h in Headers */,
+				68E4861A228E62FA00A6F86A /* ZMBaseViewController.h in Headers */,
 				68E48602228E5A4100A6F86A /* ZMStaticLib.h in Headers */,
+				68E48611228E609400A6F86A /* ZMUITools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E48610228E609400A6F86A /* ZMUITools.m in Sources */,
 				68E48601228E5A4100A6F86A /* ZMStaticLib.m in Sources */,
+				68E48615228E625D00A6F86A /* UIColor+ZMAdd.m in Sources */,
+				68E48612228E609400A6F86A /* ZMTool.m in Sources */,
+				68E48619228E62FA00A6F86A /* ZMBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

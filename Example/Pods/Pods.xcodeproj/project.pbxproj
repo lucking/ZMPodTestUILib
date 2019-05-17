@@ -10,17 +10,11 @@
 		0A416C786D493286968729726B09B212 /* Pods-ZMPodTestUILib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0472375E543DC43DFE12B552CFD63E /* Pods-ZMPodTestUILib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBA88ECCC4688A1C917AC38A4B1F951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		64A00808C33459CCAFE4B6733D86C8C0 /* Pods-ZMPodTestUILib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815CAF31B2B8F840CD94B7D4A11B60AC /* Pods-ZMPodTestUILib_Tests-dummy.m */; };
-		68E485CC228E507F00A6F86A /* ZMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E485CA228E507E00A6F86A /* ZMBaseViewController.h */; };
-		68E485CD228E507F00A6F86A /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E485CB228E507F00A6F86A /* ZMBaseViewController.m */; };
 		69FD842B1428576AC52069679658ED62 /* ZMPodTestUILib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB09518F3B53E25BC8EB162E5AA98EC7 /* ZMPodTestUILib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82BA0B94E6EFA3967FFC334FC8780522 /* Pods-ZMPodTestUILib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DA9818A265BFF7E335AB2A4CB1227F /* Pods-ZMPodTestUILib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A26765E8768F26C207259985BB281A47 /* ZMPodTestUILib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A0ECAADDA9E00E80DC195C4FE7EB52 /* ZMPodTestUILib-dummy.m */; };
-		A9993F563C153D819D3C62D8F14140EC /* ZMTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A27AB0A019512C14346B3CE01E0EDF7D /* ZMTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C0B101EF3E0A88554B3B92F1AA3D43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		D5EBC3641A6368972B73F28EFE3DA7BF /* ZMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C825270FB949E4F2510F8ECE3A06ADC /* ZMTool.m */; };
 		D76D84A16F2D5EA31D8C82759F66BF37 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FA0CF0CE22D69C6354A0F0988D3FC /* ReplaceMe.m */; };
-		D97D25863883AB905F6FDA7CAFB56054 /* ZMUITools.h in Headers */ = {isa = PBXBuildFile; fileRef = D117D3D823B26C0F7A71A9A0C5344A12 /* ZMUITools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E43637A1FC3DB53606E015B0DDBD8211 /* ZMUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CE687085BB73D196D3D810354578CD /* ZMUITools.m */; };
 		EE39C2445ED8A8B35070D70F34BF03A8 /* Pods-ZMPodTestUILib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2F88E1D1CAE6CE8560614FCF1A14DD /* Pods-ZMPodTestUILib_Example-dummy.m */; };
 		F3978002BA3A7EAD2ABCFD3B39CD6FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -60,23 +54,17 @@
 		4DEFA88E6574E0975A88D5748EABAF92 /* Pods-ZMPodTestUILib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMPodTestUILib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		577C3F7FB9CC4FAE56747EAAF06DABDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D85D10778D7C6941510FF24DE7F1A5C /* Pods-ZMPodTestUILib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMPodTestUILib_Example-Info.plist"; sourceTree = "<group>"; };
-		68E485CA228E507E00A6F86A /* ZMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseViewController.h; sourceTree = "<group>"; };
-		68E485CB228E507F00A6F86A /* ZMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseViewController.m; sourceTree = "<group>"; };
 		6DE19620BB88A9ED86ABD650525BF221 /* ZMPodTestUILib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZMPodTestUILib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		78ECA4C688C4E423B2340C3D8580F6C6 /* Pods-ZMPodTestUILib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMPodTestUILib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7C825270FB949E4F2510F8ECE3A06ADC /* ZMTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMTool.m; path = ZMPodTestUILib/Classes/ZMTool.m; sourceTree = "<group>"; };
 		7F1E9310CB1160AD50A9F11722566D9C /* ZMPodTestUILib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMPodTestUILib.modulemap; sourceTree = "<group>"; };
 		815CAF31B2B8F840CD94B7D4A11B60AC /* Pods-ZMPodTestUILib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMPodTestUILib_Tests-dummy.m"; sourceTree = "<group>"; };
 		9B0472375E543DC43DFE12B552CFD63E /* Pods-ZMPodTestUILib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMPodTestUILib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A27AB0A019512C14346B3CE01E0EDF7D /* ZMTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMTool.h; path = ZMPodTestUILib/Classes/ZMTool.h; sourceTree = "<group>"; };
 		AF2F88E1D1CAE6CE8560614FCF1A14DD /* Pods-ZMPodTestUILib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMPodTestUILib_Example-dummy.m"; sourceTree = "<group>"; };
 		B4455E608808B9676E36E177C2435EB8 /* Pods-ZMPodTestUILib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMPodTestUILib_Tests.modulemap"; sourceTree = "<group>"; };
 		C4BAC5AEABDC8CA1BC4A73D21EC92838 /* ZMPodTestUILib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZMPodTestUILib-Info.plist"; sourceTree = "<group>"; };
 		CB09518F3B53E25BC8EB162E5AA98EC7 /* ZMPodTestUILib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMPodTestUILib-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0CE687085BB73D196D3D810354578CD /* ZMUITools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMUITools.m; path = ZMPodTestUILib/Classes/ZMUITools.m; sourceTree = "<group>"; };
-		D117D3D823B26C0F7A71A9A0C5344A12 /* ZMUITools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMUITools.h; path = ZMPodTestUILib/Classes/ZMUITools.h; sourceTree = "<group>"; };
 		E5A1A4FC678D6F16CDB99EFBBE646F8E /* Pods-ZMPodTestUILib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMPodTestUILib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E6E05AA23FFC5486E7ABC91866D9B17C /* Pods-ZMPodTestUILib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMPodTestUILib_Example.modulemap"; sourceTree = "<group>"; };
 		EB6795DDAC894C236BACE066334EEDC1 /* ZMPodTestUILib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMPodTestUILib.xcconfig; sourceTree = "<group>"; };
@@ -159,12 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				3E1FA0CF0CE22D69C6354A0F0988D3FC /* ReplaceMe.m */,
-				A27AB0A019512C14346B3CE01E0EDF7D /* ZMTool.h */,
-				7C825270FB949E4F2510F8ECE3A06ADC /* ZMTool.m */,
-				D117D3D823B26C0F7A71A9A0C5344A12 /* ZMUITools.h */,
-				D0CE687085BB73D196D3D810354578CD /* ZMUITools.m */,
-				68E485CA228E507E00A6F86A /* ZMBaseViewController.h */,
-				68E485CB228E507F00A6F86A /* ZMBaseViewController.m */,
 				7EB27FDC73F2E15F5CC2FF0C5AD639E3 /* Pod */,
 				6EB7FA63BED9567FA8A39A1011FEB36A /* Support Files */,
 			);
@@ -247,8 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				69FD842B1428576AC52069679658ED62 /* ZMPodTestUILib-umbrella.h in Headers */,
-				A9993F563C153D819D3C62D8F14140EC /* ZMTool.h in Headers */,
-				D97D25863883AB905F6FDA7CAFB56054 /* ZMUITools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BA0B94E6EFA3967FFC334FC8780522 /* Pods-ZMPodTestUILib_Example-umbrella.h in Headers */,
-				68E485CC228E507F00A6F86A /* ZMBaseViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E485CD228E507F00A6F86A /* ZMBaseViewController.m in Sources */,
 				EE39C2445ED8A8B35070D70F34BF03A8 /* Pods-ZMPodTestUILib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,8 +375,6 @@
 			files = (
 				D76D84A16F2D5EA31D8C82759F66BF37 /* ReplaceMe.m in Sources */,
 				A26765E8768F26C207259985BB281A47 /* ZMPodTestUILib-dummy.m in Sources */,
-				D5EBC3641A6368972B73F28EFE3DA7BF /* ZMTool.m in Sources */,
-				E43637A1FC3DB53606E015B0DDBD8211 /* ZMUITools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

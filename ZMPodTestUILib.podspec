@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+  # pod 库的本地路劲
   # s.source_files = 'ZMPodTestUILib/Classes/**/*'
   s.source_files = 'ZMTestKit'
 
