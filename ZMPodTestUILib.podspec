@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMPodTestUILib'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '我的测试pod组件 ZMPodTestUILib'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   # pod 库的本地路劲
   # s.source_files = 'ZMPodTestUILib/Classes/**/*'
   # s.source_files = 'ZMTestKit'
-  s.source_files = 'ZMTestKit/**/*'
+  s.source_files = 'ZMTestKit/**/*.{h,m}'
 
   # s.resource_bundles = {
   #   'ZMPodTestUILib' => ['ZMPodTestUILib/Assets/*.png']
