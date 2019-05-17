@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 #define ZMColorHex(hexValue) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16)) / 255.0 green:((float)((hexValue & 0xFF00) >> 8)) / 255.0 blue:((float)(hexValue & 0xFF)) / 255.0 alpha:1.0f]
 
 
-@interface UIColor (ZMAdd)
+@interface UIColor (ZMTest)
 
 // 计算色值
 // 16进制色值转化为RGB返回UIColor类型对象

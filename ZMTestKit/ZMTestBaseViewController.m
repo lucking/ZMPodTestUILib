@@ -1,17 +1,18 @@
 //
-//  ZMBaseViewController.m
-//  Pods-ZMPodTestUILib_Example
+//  ZMTestBaseViewController.m
+//  ZMTestKit
 //
 //  Created by ZM on 2019/5/17.
+//  Copyright © 2019 ZM. All rights reserved.
 //
 
-#import "ZMBaseViewController.h"
+#import "ZMTestBaseViewController.h"
 
-@interface ZMBaseViewController ()
+@interface ZMTestBaseViewController ()
 
 @end
 
-@implementation ZMBaseViewController
+@implementation ZMTestBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
