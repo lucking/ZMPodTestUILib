@@ -32,7 +32,6 @@ TODO: Add long description of the pod here.
 
   # pod 库的本地路劲
   # s.source_files = 'ZMPodTestUILib/Classes/**/*'
-  # s.source_files = 'ZMTestKit'
   s.source_files = 'ZMTestKit'
 
   # 'ZMTestKit/UIKitCategroy/*.{h,m}','ZMTestKit/FoundationCategroy'
