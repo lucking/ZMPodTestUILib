@@ -10,4 +10,13 @@
 
 @implementation UIView (ZMTest)
 
+- (void)configUI {
+    NSLog(@"---UIView+ZMTest= configUI ");
+}
+
++ (void)configUIView {
+    NSLog(@"---UIView+ZMTest= configUIView ");
+}
+
+
 @end

@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (ZMTest)
 
+- (void)configUI;
+
++ (void)configUIView;
 
 @end
 
