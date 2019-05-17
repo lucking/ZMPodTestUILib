@@ -20,6 +20,8 @@
 		68E4862E228EAB8100A6F86A /* UIColor+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4862C228EAB8100A6F86A /* UIColor+ZMTest.m */; };
 		68E48631228EB47400A6F86A /* ZMTestBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4862F228EB47400A6F86A /* ZMTestBaseViewController.h */; };
 		68E48632228EB47400A6F86A /* ZMTestBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48630228EB47400A6F86A /* ZMTestBaseViewController.m */; };
+		68E4863F228EB93A00A6F86A /* UIView+ZMTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4863D228EB93A00A6F86A /* UIView+ZMTest.h */; };
+		68E48640228EB93A00A6F86A /* UIView+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4863E228EB93A00A6F86A /* UIView+ZMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		68E4862C228EAB8100A6F86A /* UIColor+ZMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZMTest.m"; sourceTree = "<group>"; };
 		68E4862F228EB47400A6F86A /* ZMTestBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTestBaseViewController.h; sourceTree = "<group>"; };
 		68E48630228EB47400A6F86A /* ZMTestBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTestBaseViewController.m; sourceTree = "<group>"; };
+		68E4863D228EB93A00A6F86A /* UIView+ZMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMTest.h"; sourceTree = "<group>"; };
+		68E4863E228EB93A00A6F86A /* UIView+ZMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			children = (
 				68E4862B228EAB8100A6F86A /* UIColor+ZMTest.h */,
 				68E4862C228EAB8100A6F86A /* UIColor+ZMTest.m */,
+				68E4863D228EB93A00A6F86A /* UIView+ZMTest.h */,
+				68E4863E228EB93A00A6F86A /* UIView+ZMTest.m */,
 			);
 			path = UIKitCategroy;
 			sourceTree = "<group>";
@@ -111,6 +117,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E4863F228EB93A00A6F86A /* UIView+ZMTest.h in Headers */,
 				68E485F9228E5A2300A6F86A /* ZMTestKit.h in Headers */,
 				68E48631228EB47400A6F86A /* ZMTestBaseViewController.h in Headers */,
 				68E48629228EA7BF00A6F86A /* NSString+ZMTest.h in Headers */,
@@ -194,6 +201,7 @@
 				68E4862A228EA7BF00A6F86A /* NSString+ZMTest.m in Sources */,
 				68E48601228E5A4100A6F86A /* ZMStaticLib.m in Sources */,
 				68E48612228E609400A6F86A /* ZMTool.m in Sources */,
+				68E48640228EB93A00A6F86A /* UIView+ZMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
