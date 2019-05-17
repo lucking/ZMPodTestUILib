@@ -1,12 +1,14 @@
 //
-//  UIColor+ZMAdd.h
-//  ZMArchitecture
+//  UIColor+ZMTest.h
+//  ZMTestKit
 //
-//  Created by ZM on 16/5/11.
-//  Copyright © 2016年 ZM. All rights reserved.
+//  Created by ZM on 2019/5/17.
+//  Copyright © 2019 ZM. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 // 十六进制颜色
 #define ZMColorHex(hexValue) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16)) / 255.0 green:((float)((hexValue & 0xFF00) >> 8)) / 255.0 blue:((float)(hexValue & 0xFF)) / 255.0 alpha:1.0f]
@@ -40,3 +42,5 @@
 
 @end
 
+
+NS_ASSUME_NONNULL_END

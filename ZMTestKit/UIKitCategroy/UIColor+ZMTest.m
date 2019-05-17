@@ -1,15 +1,14 @@
 //
-//  UIColor+ZMAdd.m
-//  ZMArchitecture
+//  UIColor+ZMTest.m
+//  ZMTestKit
 //
-//  Created by ZM on 16/5/11.
-//  Copyright © 2016年 ZM. All rights reserved.
+//  Created by ZM on 2019/5/17.
+//  Copyright © 2019 ZM. All rights reserved.
 //
 
-#import "UIColor+ZMAdd.h"
+#import "UIColor+ZMTest.h"
 
-@implementation UIColor (ZMAdd)
-
+@implementation UIColor (ZMTest)
 
 + (UIColor *)zm_colorHexString:(NSString *)hexValue {
     
@@ -73,9 +72,4 @@
     }
 }
 
-
-
-
-
 @end
-

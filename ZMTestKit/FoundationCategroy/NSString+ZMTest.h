@@ -1,8 +1,8 @@
 //
-//  NSString+ZMAdd.h
-//  ZMStaticLib2
+//  NSString+ZMTest.h
+//  ZMTestKit
 //
-//  Created by ZM on 2019/4/12.
+//  Created by ZM on 2019/5/17.
 //  Copyright © 2019 ZM. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (ZMAdd)
+@interface NSString (ZMTest)
 
 /** 分割字符 组成数组 */
 - (NSArray *)separatedOriginString:(NSString *)str separatedString:(NSString *)separatedString;
