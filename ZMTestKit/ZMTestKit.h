@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ZMTestKit/ZMStaticLib.h>
 #import <ZMTestKit/UIColor+ZMTest.h>
-#import <ZMTestKit/UIView+ZMTest.h>
 #import <ZMTestKit/NSString+ZMTest.h>
 
 //! Project version number for ZMTestKit.

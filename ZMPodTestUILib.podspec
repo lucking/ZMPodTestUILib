@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMPodTestUILib'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '我的测试pod组件 ZMPodTestUILib'
 
 # This description is used to generate tags and improve search results.

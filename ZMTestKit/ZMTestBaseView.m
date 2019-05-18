@@ -19,11 +19,11 @@
 */
 
 - (void)test1 {
-    NSLog(@"---ZMTestBaseView= test1 ");
+    NSLog(@"---ZMTestBaseView= -test1 ");
 }
 
 + (void)test2 {
-    NSLog(@"---ZMTestBaseView= test2 ");
+    NSLog(@"---ZMTestBaseView= +test2 ");
 }
 
 

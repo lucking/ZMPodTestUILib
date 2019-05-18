@@ -12,5 +12,4 @@
 
 + (NSInteger)sumNum1:(NSInteger)num1 num2:(NSInteger)num2;
 
-
 @end

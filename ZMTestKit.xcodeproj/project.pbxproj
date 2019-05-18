@@ -7,48 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680223312290256800E8745E /* ZMTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E485F4228E5A2300A6F86A /* ZMTestKit.framework */; };
+		68A2850E2290239C00EB2DCC /* ZMTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A285082290239B00EB2DCC /* ZMTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A2850F2290239C00EB2DCC /* ZMTestBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A285092290239B00EB2DCC /* ZMTestBaseView.m */; };
+		68A285102290239C00EB2DCC /* ZMTestBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2850A2290239B00EB2DCC /* ZMTestBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A285112290239C00EB2DCC /* ZMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2850B2290239B00EB2DCC /* ZMTool.m */; };
+		68A285122290239C00EB2DCC /* ZMUITools.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2850C2290239B00EB2DCC /* ZMUITools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A285132290239C00EB2DCC /* ZMUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2850D2290239C00EB2DCC /* ZMUITools.m */; };
+		68A28518229023AA00EB2DCC /* ZMNSStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A28514229023A900EB2DCC /* ZMNSStringTool.m */; };
+		68A28519229023AA00EB2DCC /* UIView+ZMTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A28515229023AA00EB2DCC /* UIView+ZMTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A2851A229023AA00EB2DCC /* ZMNSStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A28516229023AA00EB2DCC /* ZMNSStringTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A2851B229023AA00EB2DCC /* UIView+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A28517229023AA00EB2DCC /* UIView+ZMTest.m */; };
 		68E485F9228E5A2300A6F86A /* ZMTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E485F7228E5A2300A6F86A /* ZMTestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68E48601228E5A4100A6F86A /* ZMStaticLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E485FF228E5A4100A6F86A /* ZMStaticLib.m */; };
 		68E48602228E5A4100A6F86A /* ZMStaticLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48600228E5A4100A6F86A /* ZMStaticLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68E4860F228E609400A6F86A /* ZMTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4860B228E609300A6F86A /* ZMTool.h */; };
-		68E48610228E609400A6F86A /* ZMUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4860C228E609300A6F86A /* ZMUITools.m */; };
-		68E48611228E609400A6F86A /* ZMUITools.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4860D228E609400A6F86A /* ZMUITools.h */; };
-		68E48612228E609400A6F86A /* ZMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4860E228E609400A6F86A /* ZMTool.m */; };
-		68E48629228EA7BF00A6F86A /* NSString+ZMTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48627228EA7BF00A6F86A /* NSString+ZMTest.h */; };
-		68E4862A228EA7BF00A6F86A /* NSString+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48628228EA7BF00A6F86A /* NSString+ZMTest.m */; };
-		68E4862D228EAB8100A6F86A /* UIColor+ZMTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4862B228EAB8100A6F86A /* UIColor+ZMTest.h */; };
-		68E4862E228EAB8100A6F86A /* UIColor+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4862C228EAB8100A6F86A /* UIColor+ZMTest.m */; };
-		68E48631228EB47400A6F86A /* ZMTestBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4862F228EB47400A6F86A /* ZMTestBaseViewController.h */; };
-		68E48632228EB47400A6F86A /* ZMTestBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48630228EB47400A6F86A /* ZMTestBaseViewController.m */; };
-		68E4863F228EB93A00A6F86A /* UIView+ZMTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4863D228EB93A00A6F86A /* UIView+ZMTest.h */; };
-		68E48640228EB93A00A6F86A /* UIView+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4863E228EB93A00A6F86A /* UIView+ZMTest.m */; };
-		68E48644228EBF3C00A6F86A /* ZMTestBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48642228EBF3C00A6F86A /* ZMTestBaseView.h */; };
-		68E48645228EBF3C00A6F86A /* ZMTestBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48643228EBF3C00A6F86A /* ZMTestBaseView.m */; };
-		68E48648228ECDE500A6F86A /* ZMNSStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48646228ECDE500A6F86A /* ZMNSStringTool.h */; };
-		68E48649228ECDE500A6F86A /* ZMNSStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48647228ECDE500A6F86A /* ZMNSStringTool.m */; };
+		68E48636228EB8ED00A6F86A /* NSString+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E48634228EB8ED00A6F86A /* NSString+ZMTest.m */; };
+		68E48637228EB8ED00A6F86A /* NSString+ZMTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48635228EB8ED00A6F86A /* NSString+ZMTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E4863B228EB8F800A6F86A /* UIColor+ZMTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E48639228EB8F800A6F86A /* UIColor+ZMTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E4863C228EB8F800A6F86A /* UIColor+ZMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4863A228EB8F800A6F86A /* UIColor+ZMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68A285082290239B00EB2DCC /* ZMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMTool.h; sourceTree = "<group>"; };
+		68A285092290239B00EB2DCC /* ZMTestBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMTestBaseView.m; sourceTree = "<group>"; };
+		68A2850A2290239B00EB2DCC /* ZMTestBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMTestBaseView.h; sourceTree = "<group>"; };
+		68A2850B2290239B00EB2DCC /* ZMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMTool.m; sourceTree = "<group>"; };
+		68A2850C2290239B00EB2DCC /* ZMUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMUITools.h; sourceTree = "<group>"; };
+		68A2850D2290239C00EB2DCC /* ZMUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMUITools.m; sourceTree = "<group>"; };
+		68A28514229023A900EB2DCC /* ZMNSStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMNSStringTool.m; sourceTree = "<group>"; };
+		68A28515229023AA00EB2DCC /* UIView+ZMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMTest.h"; sourceTree = "<group>"; };
+		68A28516229023AA00EB2DCC /* ZMNSStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMNSStringTool.h; sourceTree = "<group>"; };
+		68A28517229023AA00EB2DCC /* UIView+ZMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMTest.m"; sourceTree = "<group>"; };
 		68E485F4228E5A2300A6F86A /* ZMTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E485F7228E5A2300A6F86A /* ZMTestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTestKit.h; sourceTree = "<group>"; };
+		68E485F8228E5A2300A6F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E485FF228E5A4100A6F86A /* ZMStaticLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMStaticLib.m; sourceTree = "<group>"; };
 		68E48600228E5A4100A6F86A /* ZMStaticLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMStaticLib.h; sourceTree = "<group>"; };
-		68E4860B228E609300A6F86A /* ZMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMTool.h; sourceTree = "<group>"; };
-		68E4860C228E609300A6F86A /* ZMUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMUITools.m; sourceTree = "<group>"; };
-		68E4860D228E609400A6F86A /* ZMUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMUITools.h; sourceTree = "<group>"; };
-		68E4860E228E609400A6F86A /* ZMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMTool.m; sourceTree = "<group>"; };
-		68E48627228EA7BF00A6F86A /* NSString+ZMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZMTest.h"; sourceTree = "<group>"; };
-		68E48628228EA7BF00A6F86A /* NSString+ZMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZMTest.m"; sourceTree = "<group>"; };
-		68E4862B228EAB8100A6F86A /* UIColor+ZMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZMTest.h"; sourceTree = "<group>"; };
-		68E4862C228EAB8100A6F86A /* UIColor+ZMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZMTest.m"; sourceTree = "<group>"; };
-		68E4862F228EB47400A6F86A /* ZMTestBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTestBaseViewController.h; sourceTree = "<group>"; };
-		68E48630228EB47400A6F86A /* ZMTestBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTestBaseViewController.m; sourceTree = "<group>"; };
-		68E4863D228EB93A00A6F86A /* UIView+ZMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMTest.h"; sourceTree = "<group>"; };
-		68E4863E228EB93A00A6F86A /* UIView+ZMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMTest.m"; sourceTree = "<group>"; };
-		68E48642228EBF3C00A6F86A /* ZMTestBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTestBaseView.h; sourceTree = "<group>"; };
-		68E48643228EBF3C00A6F86A /* ZMTestBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTestBaseView.m; sourceTree = "<group>"; };
-		68E48646228ECDE500A6F86A /* ZMNSStringTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMNSStringTool.h; sourceTree = "<group>"; };
-		68E48647228ECDE500A6F86A /* ZMNSStringTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMNSStringTool.m; sourceTree = "<group>"; };
+		68E48634228EB8ED00A6F86A /* NSString+ZMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZMTest.m"; sourceTree = "<group>"; };
+		68E48635228EB8ED00A6F86A /* NSString+ZMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZMTest.h"; sourceTree = "<group>"; };
+		68E48639228EB8F800A6F86A /* UIColor+ZMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZMTest.h"; sourceTree = "<group>"; };
+		68E4863A228EB8F800A6F86A /* UIColor+ZMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZMTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +54,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680223312290256800E8745E /* ZMTestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		680223302290256800E8745E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68E485EA228E5A2300A6F86A = {
 			isa = PBXGroup;
 			children = (
 				68E485F6228E5A2300A6F86A /* ZMTestKit */,
 				68E485F5228E5A2300A6F86A /* Products */,
+				680223302290256800E8745E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,40 +91,39 @@
 				68E485F7228E5A2300A6F86A /* ZMTestKit.h */,
 				68E48600228E5A4100A6F86A /* ZMStaticLib.h */,
 				68E485FF228E5A4100A6F86A /* ZMStaticLib.m */,
-				68E4860B228E609300A6F86A /* ZMTool.h */,
-				68E4860E228E609400A6F86A /* ZMTool.m */,
-				68E4860D228E609400A6F86A /* ZMUITools.h */,
-				68E4860C228E609300A6F86A /* ZMUITools.m */,
-				68E48646228ECDE500A6F86A /* ZMNSStringTool.h */,
-				68E48647228ECDE500A6F86A /* ZMNSStringTool.m */,
-				68E4863D228EB93A00A6F86A /* UIView+ZMTest.h */,
-				68E4863E228EB93A00A6F86A /* UIView+ZMTest.m */,
-				68E48642228EBF3C00A6F86A /* ZMTestBaseView.h */,
-				68E48643228EBF3C00A6F86A /* ZMTestBaseView.m */,
-				68E4862F228EB47400A6F86A /* ZMTestBaseViewController.h */,
-				68E48630228EB47400A6F86A /* ZMTestBaseViewController.m */,
-				68E4861E228E928F00A6F86A /* FoundationCategroy */,
-				68E4861B228E928F00A6F86A /* UIKitCategroy */,
+				68A2850A2290239B00EB2DCC /* ZMTestBaseView.h */,
+				68A285092290239B00EB2DCC /* ZMTestBaseView.m */,
+				68A285082290239B00EB2DCC /* ZMTool.h */,
+				68A2850B2290239B00EB2DCC /* ZMTool.m */,
+				68A2850C2290239B00EB2DCC /* ZMUITools.h */,
+				68A2850D2290239C00EB2DCC /* ZMUITools.m */,
+				68A28515229023AA00EB2DCC /* UIView+ZMTest.h */,
+				68A28517229023AA00EB2DCC /* UIView+ZMTest.m */,
+				68A28516229023AA00EB2DCC /* ZMNSStringTool.h */,
+				68A28514229023A900EB2DCC /* ZMNSStringTool.m */,
+				68E48638228EB8F800A6F86A /* UIKitCategroy */,
+				68E48633228EB8ED00A6F86A /* FoundationCategroy */,
+				68E485F8228E5A2300A6F86A /* Info.plist */,
 			);
 			path = ZMTestKit;
 			sourceTree = "<group>";
 		};
-		68E4861B228E928F00A6F86A /* UIKitCategroy */ = {
+		68E48633228EB8ED00A6F86A /* FoundationCategroy */ = {
 			isa = PBXGroup;
 			children = (
-				68E4862B228EAB8100A6F86A /* UIColor+ZMTest.h */,
-				68E4862C228EAB8100A6F86A /* UIColor+ZMTest.m */,
-			);
-			path = UIKitCategroy;
-			sourceTree = "<group>";
-		};
-		68E4861E228E928F00A6F86A /* FoundationCategroy */ = {
-			isa = PBXGroup;
-			children = (
-				68E48627228EA7BF00A6F86A /* NSString+ZMTest.h */,
-				68E48628228EA7BF00A6F86A /* NSString+ZMTest.m */,
+				68E48634228EB8ED00A6F86A /* NSString+ZMTest.m */,
+				68E48635228EB8ED00A6F86A /* NSString+ZMTest.h */,
 			);
 			path = FoundationCategroy;
+			sourceTree = "<group>";
+		};
+		68E48638228EB8F800A6F86A /* UIKitCategroy */ = {
+			isa = PBXGroup;
+			children = (
+				68E48639228EB8F800A6F86A /* UIColor+ZMTest.h */,
+				68E4863A228EB8F800A6F86A /* UIColor+ZMTest.m */,
+			);
+			path = UIKitCategroy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,16 +133,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E4863F228EB93A00A6F86A /* UIView+ZMTest.h in Headers */,
 				68E485F9228E5A2300A6F86A /* ZMTestKit.h in Headers */,
-				68E48644228EBF3C00A6F86A /* ZMTestBaseView.h in Headers */,
-				68E48631228EB47400A6F86A /* ZMTestBaseViewController.h in Headers */,
-				68E48629228EA7BF00A6F86A /* NSString+ZMTest.h in Headers */,
-				68E48648228ECDE500A6F86A /* ZMNSStringTool.h in Headers */,
-				68E4860F228E609400A6F86A /* ZMTool.h in Headers */,
+				68A28519229023AA00EB2DCC /* UIView+ZMTest.h in Headers */,
+				68A2850E2290239C00EB2DCC /* ZMTool.h in Headers */,
+				68A285122290239C00EB2DCC /* ZMUITools.h in Headers */,
+				68A2851A229023AA00EB2DCC /* ZMNSStringTool.h in Headers */,
+				68A285102290239C00EB2DCC /* ZMTestBaseView.h in Headers */,
 				68E48602228E5A4100A6F86A /* ZMStaticLib.h in Headers */,
-				68E4862D228EAB8100A6F86A /* UIColor+ZMTest.h in Headers */,
-				68E48611228E609400A6F86A /* ZMUITools.h in Headers */,
+				68E4863B228EB8F800A6F86A /* UIColor+ZMTest.h in Headers */,
+				68E48637228EB8ED00A6F86A /* NSString+ZMTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,15 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E48645228EBF3C00A6F86A /* ZMTestBaseView.m in Sources */,
-				68E4862E228EAB8100A6F86A /* UIColor+ZMTest.m in Sources */,
-				68E48632228EB47400A6F86A /* ZMTestBaseViewController.m in Sources */,
-				68E48610228E609400A6F86A /* ZMUITools.m in Sources */,
-				68E4862A228EA7BF00A6F86A /* NSString+ZMTest.m in Sources */,
+				68A285132290239C00EB2DCC /* ZMUITools.m in Sources */,
+				68A2850F2290239C00EB2DCC /* ZMTestBaseView.m in Sources */,
+				68A285112290239C00EB2DCC /* ZMTool.m in Sources */,
+				68E48636228EB8ED00A6F86A /* NSString+ZMTest.m in Sources */,
+				68E4863C228EB8F800A6F86A /* UIColor+ZMTest.m in Sources */,
+				68A2851B229023AA00EB2DCC /* UIView+ZMTest.m in Sources */,
+				68A28518229023AA00EB2DCC /* ZMNSStringTool.m in Sources */,
 				68E48601228E5A4100A6F86A /* ZMStaticLib.m in Sources */,
-				68E48612228E609400A6F86A /* ZMTool.m in Sources */,
-				68E48640228EB93A00A6F86A /* UIView+ZMTest.m in Sources */,
-				68E48649228ECDE500A6F86A /* ZMNSStringTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

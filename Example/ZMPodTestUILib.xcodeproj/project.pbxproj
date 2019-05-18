@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		68022339229036CC00E8745E /* ZMTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68022338229036B600E8745E /* ZMTestKit.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7AB9385619F33E201715D810 /* Pods_ZMPodTestUILib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B5071B947993436414A801 /* Pods_ZMPodTestUILib_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -34,9 +35,9 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = ZMPodTestUILib;
 		};
-		68E48609228E5B4B00A6F86A /* PBXContainerItemProxy */ = {
+		68022337229036B600E8745E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 68E48605228E5B4B00A6F86A /* ZMTestKit.xcodeproj */;
+			containerPortal = 68022333229036B600E8745E /* ZMTestKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 68E485F4228E5A2300A6F86A;
 			remoteInfo = ZMTestKit;
@@ -68,7 +69,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68E48605228E5B4B00A6F86A /* ZMTestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZMTestKit.xcodeproj; path = ../ZMTestKit.xcodeproj; sourceTree = "<group>"; };
+		68022333229036B600E8745E /* ZMTestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZMTestKit.xcodeproj; path = ../ZMTestKit.xcodeproj; sourceTree = "<group>"; };
 		690E1AEB98DDEB2390315E61 /* Pods-ZMPodTestUILib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMPodTestUILib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZMPodTestUILib_Tests/Pods-ZMPodTestUILib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8010E246DBDF4FBF0FC3123B /* Pods-ZMPodTestUILib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMPodTestUILib_Example.release.xcconfig"; path = "Target Support Files/Pods-ZMPodTestUILib_Example/Pods-ZMPodTestUILib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				68022339229036CC00E8745E /* ZMTestKit.framework in Frameworks */,
 				369380432764E3DA41F3EBAD /* Pods_ZMPodTestUILib_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,7 +119,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				68E48605228E5B4B00A6F86A /* ZMTestKit.xcodeproj */,
+				68022333229036B600E8745E /* ZMTestKit.xcodeproj */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZMPodTestUILib */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -205,10 +207,10 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		68E48606228E5B4B00A6F86A /* Products */ = {
+		68022334229036B600E8745E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68E4860A228E5B4B00A6F86A /* ZMTestKit.framework */,
+				68022338229036B600E8745E /* ZMTestKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,8 +285,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 68E48606228E5B4B00A6F86A /* Products */;
-					ProjectRef = 68E48605228E5B4B00A6F86A /* ZMTestKit.xcodeproj */;
+					ProductGroup = 68022334229036B600E8745E /* Products */;
+					ProjectRef = 68022333229036B600E8745E /* ZMTestKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -296,11 +298,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		68E4860A228E5B4B00A6F86A /* ZMTestKit.framework */ = {
+		68022338229036B600E8745E /* ZMTestKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ZMTestKit.framework;
-			remoteRef = 68E48609228E5B4B00A6F86A /* PBXContainerItemProxy */;
+			remoteRef = 68022337229036B600E8745E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -488,6 +490,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -520,6 +523,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -533,6 +537,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZMPodTestUILib/ZMPodTestUILib-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZMPodTestUILib/ZMPodTestUILib.framework/Headers\"",
+					"${SRCROOT}/ZMTestKit",
+				);
 				INFOPLIST_FILE = "ZMPodTestUILib/ZMPodTestUILib-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -548,6 +557,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZMPodTestUILib/ZMPodTestUILib-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZMPodTestUILib/ZMPodTestUILib.framework/Headers\"",
+					"${SRCROOT}/ZMTestKit",
+				);
 				INFOPLIST_FILE = "ZMPodTestUILib/ZMPodTestUILib-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
