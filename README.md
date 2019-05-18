@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+库中有 category，项目中需设置 -ObjC。
+PROJECT -> Settings -> Other Linker Flags 添加 -ObjC
+
 ## Installation
 
 ZMPodTestUILib is available through [CocoaPods](https://cocoapods.org). To install
